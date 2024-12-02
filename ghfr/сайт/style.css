@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'inter';
+    src: url('./fonts/Inter-Bold.otf');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'inter';
+    src: url('./fonts/Inter-Regular.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+:root{
+    --litegreen: rgba(221, 238, 119, 1);
+    --h1: rgba(52, 32, 32, 1);
+    --green: rgba(0, 153, 51, 1);
+    --hover: rgb(7, 71, 29);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'inter';
+    font-weight: 700;
+    color: var(--h1);
+}
+html {
+    scroll-behavior: smooth;
+}
+h1{
+        font-size: 36px;
+    }
+h2{
+    font-size: 32px;
+}
+h4{
+    font-size: 24px;
+}
+p{
+    font-family: 'inter';
+    font-weight: 400;
+    color: var(--h1);
+}
+a{
+    text-decoration: none;
+    color: var(--h1);
+}
+
+.osnova{
+    width: 1280px;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 86px;
+    background-color: var(--litegreen);
+}
+.alias:hover{
+    color: var(--hover);
+    border-bottom: solid 1px var(--hover);
+    transition: ease-in 0.3s;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.blckhl{
+    margin: 50px 0px 50px 50px;
+}
+.headcontnt{
+    display: flex;
+    justify-content: space-between;
+}
+.headl{
+    display: flex;
+    gap: 29px;
+}
+.logo{
+    margin-top: -10px;
+}
+.td{
+    font-weight: 700px;
+    font-size: 24px;
+}
+.headertrymenu{
+    display: flex;
+    gap: 25px;
+}
+.headertrymenut{
+    display: flex;
+    gap: 25px;
+}
+.headertrymenub{
+    display: flex;
+    gap: 25px;
+}
+.sitehl{
+    width: 100%;
+    text-align: right;
+    font-weight: 700;
+    font-size: 16px;
+}
+.headr{
+    margin-top: 10px;
+    display: flex;
+    gap: 37px;
+}
+.menu{
+    font-weight: 400;
+    font-size: 20px;
+}
+.headcontnt{
+    padding-top: 20px;
+}
+.banertxt{
+    color: white;
+    text-align: center;
+}
+.txtblock{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+.banner{
+    padding-top: 189px;
+    width: 100%;
+    height: 481px;
+    background-image: url(./img/banner.png);
+    background-repeat: no-repeat;
+}
+.bannerbutblock{
+    margin: auto;
+}
+.cardimg{
+    width: 598px;
+}
+.card{
+    background-color: var(--litegreen);
+    width: 598px;
+    height: 501px;
+    border-radius: 30px;
+    
+}
+.cardhl{
+    text-align: center;
+    padding: 12px 0px 18px 0px;
+    font-weight: 400;
+}
+.buttblck{
+    
+    margin: 17px 161px 17px 160px;
+}
+.cardbutt{
+    font-size: 36px;
+    font-weight: 400;
+    width: 276px;
+    height: 58px;
+    border: none;
+    border-radius: 30px 0px 30px 0px;
+    color: white;
+    background-color: var(--green);
+}
+.cardbutt:hover{
+    background-color: var(--hover);
+    transition: 0.3s ease;
+}
+.blckcards{
+    display: flex;
+    justify-content: space-between;
+}
+.bannerland{
+    width: 100%;
+    margin: 50px 0px;
+    background-image: url(./img/landbacg.png);
+}
+.landcntnt{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.landhl{
+    margin-top: 75px;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+.bannerlandtxt{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+.landcards{
+    display: flex;
+    justify-content: space-between;
+}
+.landcard{
+    border-radius: 30px 0px 30px 0px;
+    background-color: white;
+}
+.landcardcntnt{
+    padding: 10px 6px;
+    display: flex;
+    gap: 20px;
+}
+.landimg{
+    height: 118px;
+}
+.landcardhl{
+    color: var(--h1);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.landcardtext1{
+    width: 194px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.landcardtext2{
+    width: 176px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.landcardtext3{
+    width: 195px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.bannerlandbut{
+    align-self: flex-end;
+    margin-top: 15px;
+    padding-bottom: 35px;
+}
+.blckpartners{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brands2{
+    margin-top: 50px;
+}
+.partner1{
+    width: 485px;
+    height: 77px;
+}
+.partner2{
+    width: 276px;
+    height: 143px;
+}
+.partner3{
+    width: 348px;
+    height: 148px;
+}
+.otziv{
+    width: 586px;
+    height: 261px;
+    border: solid 5px var(--green);
+    border-radius: 45px;
+}
+.otzivconteiner{
+    padding: 22px 37px 22px 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 19px;
+}
+.otzivt{
+    display: flex;
+    gap: 69px;
+    align-items: center;
+}
+.soderj, .imia{
+    font-size: 20px;
+    line-height: 24px;
+}
+.otzivblckt, .otzivblckb{
+    width: 1211px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+footer{
+    width: 100%;
+    height: 261px;
+    background-color: var(--litegreen);
+}
+.blckfooter{
+    padding: 42px 80px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerhead{
+    width: 167px;   
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
+.footerheada{
+    width: 200px;
+}
+
+.footl{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.footerbut{
+    width: 259px;
+    height: 58px;
+    color: var(--litegreen);
+    background-color: var(--h1);
+    border: none;
+    border-radius: 30px 0px 30px 0px;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 80px 150px 57px 106px;
+}
+.footerbut:hover{
+    color: var(--h1);
+    background-color: var(--litegreen);
+    border: solid 1px var(--h1);
+    transition: 0.3s ease;  
+}
+.sicials{
+    font-size: 24px;
+    margin-bottom: 14px;
+    margin-top: 27px;
+}
+.blcksocials{
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerhead, .footerheadah{
+    width: 300px;
+}
+.footm{
+    margin-left: 20px;
+}
+.footerheadah{
+    margin-left: 30px;
+}
+.footermenuselements{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.footermenut{
+    display: flex;
+    gap: 25px;
+}
+.footermenub{
+    display: flex;
+    gap: 25px;
+}
+.copirite{
+    margin-left: 80px;
+    margin-top: -20px;
+}
+.vk, .tg, .vts:hover{
+    cursor: pointer;
+}
+@media (2559 < width < 2561px) {
+    .banner{
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-position-y: -300px;
+    }
+    .bannerland{
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-position-y: -300px;
+    }
+}
+
+@media (width < 1281px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 1280px;
+    }
+    .osnova2{
+        width: 1220px;
+        margin: auto;
+    }
+    .blckfooter{
+        padding: 43px 60px 4px;
+    }
+    .landcntnt{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 0px 35px;
+    }
+    .blckpartners{
+        width: 1240px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        align-items: center;
+    }
+    .otzivblckt, .otzivblckb{
+        width: 1210px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+    }
+    .copirite{
+        margin-left: 60px;
+        margin-top: -20px;
+    }
+@media (width < 481px) {
+    h1, h2, h3, h4, h5, h6{
+        font-family: 'inter';
+        font-weight: 700;
+        color: var(--h1);
+    }
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    p{
+        font-family: 'inter';
+        font-weight: 400;
+        color: var(--h1);
+    }
+    a{
+        text-decoration: none;
+        color: var(--h1);
+    }
+    body{
+        width: 480px;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    :root{
+        --litegreen: rgba(221, 238, 119, 1);
+        --h1: rgba(52, 32, 32, 1);
+        --green: rgba(0, 153, 51, 1);
+    }
+    .osnova{
+        width: 480px;
+        margin: auto;
+    }
+    .osnova2{
+        width: 480px;
+        margin: auto;
+    }
+    header{
+        width: 100%;
+        height: 205px;
+        background-color: var(--litegreen);
+    }
+    .blckhl{
+        width: 335px;
+        margin: 50px auto 50px auto;
+        text-align: center;
+    }
+    .headcontnt{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+    .headl{
+        display: flex;
+        gap: 29px;
+    }
+    .td{
+        font-weight: 700px;
+        font-size: 24px;
+    }
+    .sitehl{
+        width: 100%;
+        text-align: right;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .logo{
+        margin-top: -10px;
+    }
+    .headr{
+        width: 428px;
+        margin-top: 7px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .headcontnt{
+        padding-top: 20px;
+    }
+    .banertxt{
+        color: white;
+        text-align: center;
+        font-size: 24px;
+    }
+    .txtblock{
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+    }
+    .headertrymenu{
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .headertrymenut, .headertrymenub{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner{
+        padding-top: 51px;
+        width: 100%;
+        height: 384px;
+        background-image: url(./img/banner.png);
+        background-repeat: no-repeat;
+    }
+    .bannerlandbut{
+        align-self: center;
+        margin-top: 15px;
+        padding-bottom: 35px;
+    }
+    .card{
+        background-color: var(--litegreen);
+        width: 470px;
+        height: 402px;
+        border-radius: 13px;
+        margin: auto;
+    }
+    .cardimg{
+        width: 470px;
+    }
+    .cardhl{
+        text-align: center;
+        padding: 12px 0px 18px 0px;
+    }
+    .buttblck{
+        margin: 4px 97px 14px 95px;
+    }
+    .cardbutt{
+        font-size: 36px;
+        font-weight: 400;
+        width: 276px;
+        height: 58px;
+        border: none;
+        border-radius: 30px 0px 30px 0px;
+        color: white;
+        background-color: var(--green);
+    }
+    .blckcards{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .partner1{
+        width: 475px;
+        height: 77px;
+    }
+    .partner2{
+        width: 276px;
+        height: 143px;
+    }
+    .partner3{
+        width: 348px;
+        height: 148px;
+    }
+    .footr{
+        margin-left: 45px;
+    }
+    .otziv{
+        margin: auto;
+        width: 460px;
+        height: 233px;
+        border: solid 5px var(--green);
+        border-radius: 45px;
+        font-size: 16px;
+    }
+    .otzivconteiner{
+        padding: 20px 30px 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 19px;
+    }
+    .otzivt{
+        display: flex;
+        gap: 27px;
+        align-items: center;
+    }
+    .soderj, .imia{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .ava{
+        width: 106px;
+    }
+    .otzivblckt, .otzivblckb{
+        width: 480px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        margin-bottom: 27px;
+    }
+    footer{
+        width: 100%;
+        height: 100%;
+        background-color: var(--litegreen);
+    }
+    .blckfooter{
+        padding: 54px 57px 75px 56px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footerhead{
+        width:200px;
+        font-size: 20px;
+    }
+    .landcards{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .zxc{
+        margin: 0px 20px;
+        width: 333px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footerhead{
+        width: 367px;
+    }
+    .footermenuselements{
+        width: 367px;
+    }
+    .glavnaya{
+        width: 85px;
+    }
+    .footermenub, .footermenut{
+        justify-content: space-between;
+    }
+    .footermenub{
+        margin-top: 15px;
+    }
+    .kategorytry{
+        width: 200px;
+        margin-left: 30px;
+    }
+    .scroll-link{
+        min-width: 180px;
+    }
+    .footermenut{
+        width: 367px;
+    }
+    .footerheadal{
+        width: 90px;
+    }
+    .footlm{
+        width: 367px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    .copirite{
+        text-align: center;
+        font-size: 20px;
+    }
+    .footerheadah{
+        width: 200px;
+        font-size: 20px;
+    }
+    .footl{
+        display: flex;
+        flex-direction: column;
+        gap: 52px;
+    }
+    .footerbut{
+        width: 259px;
+        height: 58px;
+        color: var(--litegreen);
+        background-color: var(--h1);
+        border: none;
+        border-radius: 30px 0px 30px 0px;
+        font-size: 32px;
+        font-weight: 400;
+        margin: 45px 35px   
+    }
+    .footermenut{
+        width: 100%;
+        display: flex;
+        gap: 25px;
+    }
+    .blckpartners{
+        width: 440px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .brands2{
+        margin-top: 40px;
+    }
+    .sicials{
+        font-size: 24px;
+        margin-bottom: 14px;
+        margin-top: 27px;
+    }
+    .blcksocials{
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ssilka{
+        width: 200px;
+    }
+    .footerhead, .footerheadah{
+        width: 250px;
+    }
+    .copirite{
+        margin-left: 10px;
+        padding-bottom: 20px;
+    }
+}
+}
